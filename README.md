@@ -6,6 +6,9 @@
 提供的APIS不多，但也基本满足需求。代码简洁就三百多行代码，方便自行扩展与阅读。
 
 ---
+源码也比较简单，可以直接看源码了解更多。使用方法，demo里也有示例。
+
+---
 纯属学习与交流，留下来做个备份。以便日后使用。
 
 --
@@ -13,4 +16,5 @@
 
 --- 
 附上一个效果图
+
 ![截图](http://upload-images.jianshu.io/upload_images/660127-562c9584edf3fd78.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
