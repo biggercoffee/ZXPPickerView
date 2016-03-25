@@ -283,6 +283,12 @@ static const void * kZXPPickerViewKey = &kZXPPickerViewKey;
 
 #pragma mark - getter & setter
 
+- (void)setDataSource:(NSArray<NSArray<NSString *> *> *)dataSource {
+    _dataSource = dataSource;
+    self.pickerView.dataSource = self;
+    self.pickerView.delegate = self;
+}
+
 - (UIView *)backgroundView {
     if (!_backgroundView) {
         _backgroundView = [UIView new];
